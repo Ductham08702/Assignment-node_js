@@ -27,7 +27,7 @@ Trang chi tiết sản phẩm:
 
 * Phân chia rõ ràng các folder như admin, user
 
-vd: Layout sẽ có hai folder nhỏ là Admin và Layout
+vd: trong page sẽ có hai folder nhỏ là Admin và User
 - trong hai folder nhỏ này chứa các file về code
 
 
