@@ -32,16 +32,16 @@ vd: trong page sẽ có hai folder nhỏ là Admin và User
 
 #Các bước để đẩy code lên github
 * Đối với các thành viên:
-1_ Clone git từ github về máy bằng câu lệnh: git clone "đường dẫn github muốn clone" (chỉ dùng cho lần dầu muốn lấy code vè máy)._
-2_ Kiểm tra nhánh đang code: git branch
-3_ Nếu đang ở nhánh chính (nhánh main) thì tạo nhánh mới phù hợp với issues được giao: git checkout -b "tên nhánh mới"
+- Clone git từ github về máy bằng câu lệnh: git clone "đường dẫn github muốn clone" (chỉ dùng cho lần dầu muốn lấy code vè máy)._
+- Kiểm tra nhánh đang code: git branch
+- Nếu đang ở nhánh chính (nhánh main) thì tạo nhánh mới phù hợp với issues được giao: git checkout -b "tên nhánh mới"
 Nếu không ở nhánh chính (nhánh main) thì dùng: git checkout main - sau đó thực hiện lại bước 3
-4_ Code chức năng mới trong Visuacode
-5_ git add .
-6_ git commit -m "tên comment theo issues"
-7_ git push origin “tên nhánh của chức năng hiện tại đang code”
-8_ Lên server tạo mới pull requests
+- Code chức năng mới trong Visuacode
+- git add .
+- git commit -m "tên comment theo issues"
+- git push origin “tên nhánh của chức năng hiện tại đang code”
+- Lên server tạo mới pull requests
 
 *Đối với người review code
-1_ Nếu code hoàn thiện không có lỗi thì tạo merge requests
+- Nếu code hoàn thiện không có lỗi thì tạo merge requests
 Nếu code lỗi thì comment lại lỗi và các thành viên sẽ thực hiện lại từ bước 5 đến bước 7
