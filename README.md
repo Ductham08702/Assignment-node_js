@@ -31,7 +31,7 @@ vd: trong page sẽ có hai folder nhỏ là Admin và User
 - trong hai folder nhỏ này chứa các file về code
 
 #Các bước để đẩy code lên github
-* Đối với các thành viên:
+*** Đối với các thành viên:
 - b1: Clone git từ github về máy bằng câu lệnh: git clone "đường dẫn github muốn clone" (chỉ dùng cho lần dầu muốn lấy code vè máy)._
 - b2:Kiểm tra nhánh đang code: git branch
 - b3: Nếu đang ở nhánh chính (nhánh main) thì tạo nhánh mới phù hợp với issues được giao: git checkout -b "tên nhánh mới"
@@ -42,6 +42,6 @@ vd: trong page sẽ có hai folder nhỏ là Admin và User
 - b7: git push origin “tên nhánh của chức năng hiện tại đang code”
 - b8: Lên server tạo mới pull requests
 
-*Đối với người review code
+*** Đối với người review code
 - Nếu code hoàn thiện không có lỗi thì tạo merge requests
 - Nếu code lỗi thì comment lại lỗi và các thành viên sẽ thực hiện lại từ bước 5 đến bước 7
