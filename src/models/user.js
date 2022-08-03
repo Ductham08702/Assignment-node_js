@@ -1,16 +1,27 @@
 import mongoose from "mongoose";
+import { createHmac } from "crypto";
+
 const userSchema = mongoose.Schema({
+    name: {
+        type: String,
+    },
     email: {
         type: String,
-        require: true
+        required: true,
     },
     password: {
-        type: Number,
-        minlength: 5
+        type: String,
+        minlength: 6,
     },
-    name: {
-        type: String
-    }
-})
+    role: {
+        type: Number,
+        default: 0,
+    },
+}, { timestamps: true });
+
+
+
+
+// Export model user
 const User = mongoose.model("user", userSchema)
 export default User
