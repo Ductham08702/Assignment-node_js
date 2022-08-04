@@ -7,10 +7,10 @@ import { edit } from "../apis/products/update_product"
 const router = express.Router()
 
 
-router.get("/product", list)
-router.get("/product/:id", read)
-router.post("/product", add)
-router.delete("/product/:id", remove)
-router.patch("/product/:id", edit)
+router.get("/products", list)
+router.get("/products/:id", read)
+router.post("/products", add)
+router.delete("/products/:id", remove)
+router.patch("/products/:id", edit)
 
 export default router

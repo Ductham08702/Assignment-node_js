@@ -12,7 +12,10 @@ const signup = async(req, res) => {
         }
 
         const new_user = await new User(req.body).save()
-        console.log(new_user)
+        return res.status(200).json({
+            message: "Đăng ký tài khoản thành công!",
+            new_user
+        })
 
     } catch (error) {
         return res.status(400).json({
